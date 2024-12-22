@@ -15,7 +15,7 @@ import fr from "../assets/fr.jpeg"
 import dsa from "../assets/DSA.png"
 import amazon from "../assets/amazon.jpg"
 import github from "../assets/github.png"
-import Code  from "../assets/Code.png"
+import Code from "../assets/Code.png"
 import python from "../assets/python.png"
 import node from "../assets/node.png"
 import express from "../assets/express.png"
@@ -37,7 +37,7 @@ import tkit from "../assets/tkit.jpg"
 
 import Expandable from '../components/Expandable'
 
-import { elitcelerInfo, ivoyantInfo, nfcInfo,Ram, tech } from '../contants/info.js'
+import { elitcelerInfo, ivoyantInfo, nfcInfo, Ram, tech } from '../contants/info'
 import Contact from './Contact'
 import Blob from '../components/Blob'
 import ExperienceCard from '../components/ExperienceCard'
@@ -80,7 +80,7 @@ function Home() {
 
                     <GradientText style={{ fontWeight: "700px" }} tag="h1" text="Hello, I am Utkarsh Dubey," />
 
-                   Electronics and communication Engineer Undergrad
+                    Electronics and communication Engineer Undergrad
                   </h1>
 
 
@@ -240,24 +240,24 @@ function Home() {
                 <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-3 gap-y-3 mt-6 mb-10' >
 
                   <ExperienceCard role="Internship" duration="June 2022 - July 2022" color="#1E1E1E" points={nfcInfo} companyname="BSNL" companylogo={<img className='w-[120px] h-[120px] text-[var(--white-secondary)] p-4' src={BSNL} alt='Company Logo' />} />
-                  
-                </div>
-                
+
                 </div>
 
-              
-              
-              
-              
-              
+              </div>
+
+
+
+
+
+
               <div data-aos="fade-up "
                 data-aos-anchor-placement="top-bottom" id='Certifications'>
 
 
-               
-               
-               
-               
+
+
+
+
                 <GradientText text="Certifications" className="tracking-wide font-bold text-[38px]" tag="span" />
 
                 <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-3 gap-y-3 mt-6 mb-10' >
@@ -266,10 +266,35 @@ function Home() {
 
 
 
-                   <Certificate role="Google Data Analysts" duration="8 Jan 2024" color="#1E1E1E" points={Ram} companyname="Google" companylogo={<img className='w-[120px] h-[120px] text-[var(--white-secondary)] p-4' src={G} alt='Company Logo' />} />
-                 
-                  <Certificate role="Microsoft and Linkedin Data Analysts" duration="30 Jan 2024" color="#22262a" points={elitcelerInfo} companyname="Microsoft and Linkedin" companylogo={<img className='w-[120px] h-[120px] text-[var(--white-secondary)]' src={M} alt='Company Logo' />} />
-                  < Certificate role="Microsoft and Linkedin Software  Development" duration="4 April 2024" color="#464646" points={ivoyantInfo} companyname="Microsoft and Linkedin" companylogo={<img className='w-[120px] h-[120px] text-[var(--white-secondary)]' src={Mn} alt='Company Logo' />} />
+                  <Certificate
+                    role="Google Data Analysts"
+                    duration="8 Jan 2024"
+                    color="#1E1E1E"
+                    points={Ram}
+                    companyname="Google"
+                    links="https://github.com/Utkarshdubey2014/Weapon-Detection-using-AI-and-Deep-learning"
+                    companylogo={<img className='w-[120px] h-[120px] text-[var(--white-secondary)] p-4' src={G} alt='Company Logo' />}
+                  />
+
+                  <Certificate
+                    role="Microsoft and Linkedin Data Analysts"
+                    duration="30 Jan 2024"
+                    color="#22262a"
+                    points={elitcelerInfo}
+                    companyname="Microsoft and Linkedin"
+                    links="https://github.com/Utkarshdubey2014/Weapon-Detection-using-AI-and-Deep-learning"
+                    companylogo={<img className='w-[120px] h-[120px] text-[var(--white-secondary)]' src={M} alt='Company Logo' />}
+                  />
+
+                  <Certificate
+                    role="Microsoft and Linkedin Software Development"
+                    duration="4 April 2024"
+                    color="#464646"
+                    points={ivoyantInfo}
+                    companyname="Microsoft and Linkedin"
+                    links="https://github.com/Utkarshdubey2014/Weapon-Detection-using-AI-and-Deep-learning"
+                    companylogo={<img className='w-[120px] h-[120px] text-[var(--white-secondary)]' src={Mn} alt='Company Logo' />}
+                  />
                 </div>
               </div>
             </section>
