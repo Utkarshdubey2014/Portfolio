@@ -89,7 +89,7 @@ function Home() {
                   <div className='flex sm:gap-x-3 gap-y-3 sm:gap-y-0 flex-col sm:flex-row'>
                     <a href='#contact' rel="noreferrer" className='gitintouchBTN px-6 py-3 rounded-[20px]  text-[var(--white-primary)]  font-bold tracking-[0.5px] text-[12px]'>GET IN TOUCH</a>
 
-                    <button className='connectBTN px-6 py-3 rounded-[20px] border-[1px] border-[var(--white-secondary)] z-10 text-[var(--white-primary)] font-semibold tracking-[0.5px] text-[12px] hover:transform'><a href="https://drive.google.com/file/d/1IiFfgxV4iZYC3yDcSIZ0v_MO61C0puk3/view?usp=drive_link" target='_blanck'>RESUME</a></button>
+                    <button className='connectBTN px-6 py-3 rounded-[20px] border-[1px] border-[var(--white-secondary)] z-10 text-[var(--white-primary)] font-semibold tracking-[0.5px] text-[12px] hover:transform'><a href="https://drive.google.com/file/d/1X2qs7zfVKhmjxlyAOvFGriL-sv6wcKUn/view?usp=share_link" target='_blanck'>RESUME</a></button>
 
                   </div>
 
@@ -272,7 +272,7 @@ function Home() {
                     color="#1E1E1E"
                     points={Ram}
                     companyname="Google"
-                    links="https://github.com/Utkarshdubey2014/Weapon-Detection-using-AI-and-Deep-learning"
+                    links="https://skillshop.credential.net/816b3b9b-35ec-4908-9546-123f67b53e68"
                     companylogo={<img className='w-[120px] h-[120px] text-[var(--white-secondary)] p-4' src={G} alt='Company Logo' />}
                   />
 
@@ -282,7 +282,7 @@ function Home() {
                     color="#22262a"
                     points={elitcelerInfo}
                     companyname="Microsoft and Linkedin"
-                    links="https://github.com/Utkarshdubey2014/Weapon-Detection-using-AI-and-Deep-learning"
+                    links="https://www.linkedin.com/learning/certificates/de9a1a775b3b9a4dacb99491ddbfd0a5b8f86515c708ff0d652d807afc0cd"
                     companylogo={<img className='w-[120px] h-[120px] text-[var(--white-secondary)]' src={M} alt='Company Logo' />}
                   />
 
@@ -292,7 +292,7 @@ function Home() {
                     color="#464646"
                     points={ivoyantInfo}
                     companyname="Microsoft and Linkedin"
-                    links="https://github.com/Utkarshdubey2014/Weapon-Detection-using-AI-and-Deep-learning"
+                    links="https://www.linkedin.com/learning/certificates/ba59c0ef92befee1045c726bc77c3ba13c33b447bce63475dd6e2070c72c1320"
                     companylogo={<img className='w-[120px] h-[120px] text-[var(--white-secondary)]' src={Mn} alt='Company Logo' />}
                   />
                 </div>
